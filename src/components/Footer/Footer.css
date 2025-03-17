@@ -1,0 +1,251 @@
+.outer{
+    background-color: #294F82;
+    
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+    /* position: sticky; */
+    bottom:0px;
+}
+
+.logo-container {
+    width: 100%;
+    max-width: 237px;
+    height: 179px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+
+}
+
+.logo-container>div>h1 {
+    font-size: x-large;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 3px;
+
+}
+
+.logo-container>div>p {
+    color: #fff;
+    font-size: small;
+
+}
+
+.navigation>ul {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 500;
+    height: 165px;
+    font-size: 16px;
+    line-height: 25px;
+    padding-top: 40px;
+}
+
+.contact {
+    width: 100%;
+    max-width: 300px;
+    color: #fff;
+    height: 175px;
+}
+
+
+.mobile,
+.email,
+.address {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0px;
+    font-size: 16px;
+}
+
+.mobile>img,
+.email>img,
+.address>img {
+    height: 20px;
+    width: 20px;
+}
+
+.social-icon {
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    max-width: 212px;
+    height: 70px;
+    gap: 24px;
+    align-items: center;
+    justify-content: center; 
+    margin: auto;
+}
+
+ 
+.fb,.insta,.linkedin,.twitter,.music{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.card {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 24px;
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+
+
+}
+
+.heading {
+    width: 100%;
+    max-width: 258px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #1E3A5F;
+
+}
+
+.card >form >.email {
+    display: block;
+    height: 40px;
+    width: 100%;
+    max-width: 250px;
+    border: 1px solid #66666680;
+    border-radius: 15px;
+    padding: 2px 10px;
+    outline: none;
+}
+
+.copyright {
+    background-color: #1E3A5F;
+    color: #31A7DB;
+    display: flex;
+    padding: 13px 30px;
+    justify-content: space-between;
+}
+.footer-email{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.top,.bottom{
+    display: flex;
+    width: 50%;
+    justify-content: space-around; 
+}
+@media screen and (max-width:720px) {
+    .footer{ 
+         flex-direction: column;
+         gap: 50px;
+         height: auto;
+         /* position: sticky; */
+    bottom:0px;
+    }
+    .top,.bottom{
+        width: 100%;
+        gap: 50px;
+        justify-content: space-between;
+        height: 200px;
+
+    }
+    .logo-container>div>h1{
+        font-size: 18px;
+    }
+    .logo-container>div>p{
+        font-size: 10px;
+    }
+    .contact{ 
+        font-size: 11px;
+    }
+    .mobile,.email,.address{
+        font-size: 14px;
+        overflow: hidden;
+    }
+    .card{
+        max-width: 250px;
+        width: 100%;
+    }
+    .heading{
+        font-size: 14px;
+    }
+    .navigation>ul{
+        font-size: 14px;
+        /* padding-right:; */
+        
+    }
+    .copyright{
+        font-size: 14px;
+    }
+    .fb,.insta,.linkedin,.twitter,.music{
+        height: 20px;
+        width: 20px;
+        cursor: pointer;
+    }
+    .logo-container {
+        width: 100%;
+    max-width: 160px;
+    height: 129px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center; 
+    height: 100%;
+    }
+}
+@media screen and (max-width:450px){
+    .footer{
+        gap: 10px;
+        padding: 10px;
+    }
+    .top,.bottom{
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        height: 300px; 
+
+    }
+    .navigation>ul{
+        padding: 0;
+        text-align: center; 
+        border-bottom: 2px 
+    }
+    .navigation>ul>li:hover{
+        border-bottom: 2px solid #fff;
+    }
+    .contact{ 
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        border-top:2px solid #fff;
+
+    }
+    .copyright{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .info{
+        font-size: 12px;
+        text-align: center;
+
+    }
+}

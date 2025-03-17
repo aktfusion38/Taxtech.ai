@@ -1,0 +1,34 @@
+.wait-list{
+    background-image: url('../../assests/waitList.png');
+    width: 100%;
+    max-width: 1360px;
+}
+.feature-form > input:focus{
+    background: transparent;
+
+}
+.select-option{
+    background-color: transparent;
+    background-image: url('../../assests/waitList.png');
+    color: black;
+     
+}
+@media screen and (max-width:1024px) {
+    .feature-form{ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 900px;
+    }
+    .visited-form{ 
+        max-width: 900px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+}

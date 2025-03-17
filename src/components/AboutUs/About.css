@@ -1,0 +1,136 @@
+.about-us {
+    background-image: url('../../assests/AboutUs.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 1380px;
+    width: 100%;
+    margin: 0px auto;   
+    max-height: 350px;
+    height: 100%;
+}
+
+.left {
+    /* height: 500px; */
+    /* width: 50%; */
+    /* padding: 100px 0px 0px 100px; */
+}
+
+.text {
+    width: 100%;
+    max-width: 781px;
+    /* height: 120px; */
+}
+
+.text-top {
+    background: linear-gradient(#1E3A5F, #8CB1E2, #2DA7DB);
+    background-clip: text;
+    color: transparent; 
+    font-weight: 700;
+    display: block;
+}
+
+.text-bottom { 
+    font-weight: 700;
+    color: #2DA7DB;
+    display: block;
+}
+
+.subheading {
+    /* width: 640px; */
+    width: 100%;
+    max-width: 640px;
+    /* font-size: 96px; */
+    color: #fff;
+    /* padding-top: 20px; */
+    font-family: 'poppins';
+    text-align: left;
+    font-weight: 700;
+    /*
+    font-family: Poppins;
+font-weight: 700;
+font-size: 96px;
+line-height: 144px;
+letter-spacing: 0%;
+
+    */
+}
+/* 
+@media screen and (max-width:600px) {
+    .about-us {
+        max-width: 600px;
+        width: 100%;
+        background-position:inherit;
+        background-size: contain;
+    }
+
+    .left {
+        height: 300px;
+        width: 100%;
+        padding: 20px;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .text {
+
+        width: 80%;
+        height: 200px;
+    }
+
+    .text-top {
+        font-size: 1.5rem;
+        font-weight: 600;
+        display: block;
+    }
+
+    .text-bottom {
+        font-size: 1.5rem;
+        font-weight: 600;
+        display: block;
+    }
+
+    .subheading {
+        width: 600px;
+        font-size: 45px;
+        color: #fff; 
+        font-family: 'poppins';
+        text-align: left;
+        font-weight: 700;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .about-us {
+        max-width: 720px;
+        width: 100%;
+    }
+    .text {
+
+        width: 100%;
+        max-width: 700px;
+        background-color: red; 
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .about-us {
+        max-width: 1020px;
+        width: 100%;
+    }
+
+     
+}
+
+@media screen and (min-width:1020px) {
+
+}
+
+@media screen and (min-width:1200px) {
+    .about-us { 
+        width: 100%;
+        max-width: 1560px;
+    }
+} */

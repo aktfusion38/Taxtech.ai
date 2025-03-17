@@ -1,0 +1,25 @@
+.benifit-card{
+    /* height: 350px; */
+    width: 220px;
+    border:2px solid #31A7DB26;
+    padding:10px;
+    /* overflow: hidden; */
+    border-radius: 17px;
+    padding: 24px 10px;
+    margin: 10px;
+}
+.benifit-img{
+    width: 100%;
+    margin: auto ;
+    /* background-color: red ; */
+}
+.benifit-img > img{
+    margin: auto;
+}
+.benifit-heading{
+    font-weight: 500;
+    /* font-size: 20px; */
+}
+.benifit-para{ 
+    color: #555555;
+}

@@ -1,0 +1,13 @@
+.layout{
+    max-width: 1320px;
+    margin:  auto;
+    min-width: 350px;
+}
+.Navbar{
+    position: sticky;
+    top:0px;
+    z-index: 20;
+}
+.Footer{
+    /* position: sticky;  */
+}

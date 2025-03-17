@@ -1,0 +1,33 @@
+.company {
+    background-color: #31A7DB1A;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 40px;
+    max-width: 1360px;
+    margin: auto; 
+
+}
+
+.overview-subheading {
+    height: 72px;
+    font-family: Poppins;
+    font-weight: 600;
+    /* font-size: 48px; */
+    line-height: 72px;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #1E3A5F;
+
+
+}
+ 
+.Overview {
+    margin:0px auto;
+}
+
+.overview-desc {
+    /* width: 1200px;  */
+    margin:0px auto;
+    color:#1E3A5F;
+    padding:40px 44px;
+}
